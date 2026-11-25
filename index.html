@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLEACH | Soul Society</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <h2>BLEACH</h2>
+
+        <div class="nav-links">
+            <a href="#home">HOME</a>
+            <a href="#characters">CHARACTERS</a>
+            <a href="#bankai">BANKAI</a>
+            <a href="#squads">GOTEI 13</a>
+        </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="hero">
+
+        <p class="tagline">WELCOME TO SOUL SOCIETY</p>
+
+        <h1>BLEACH</h1>
+
+        <h2>THE WORLD OF SHINIGAMI</h2>
+
+        <p>
+            Discover the world of Soul Reapers,
+            Zanpakuto and legendary Bankai.
+        </p>
+
+        <a href="#characters" class="explore-btn">
+            EXPLORE THE WORLD
+        </a>
+
+    </section>
+
+    <!-- CHARACTERS SECTION -->
+    <section id="characters" class="content-section">
+
+        <h2>POPULAR CHARACTERS</h2>
+
+        <div class="character-container">
+
+            <div class="character-card">
+                <img src="https://i.pinimg.com/736x/d3/d3/f1/d3d3f1b0de56bf8c6ad1c78d9e8eda8c.jpg"
+                    alt="Ichigo Kurosaki">
+                <h3>ICHIGO KUROSAKI</h3>
+                <p>The Substitute Soul Reaper</p>
+            </div>
+
+            <div class="character-card">
+                <img src="https://i.pinimg.com/736x/f4/88/05/f4880533da6c6ddf8384509431f55fc8.jpg"
+                    alt="Genryusai Yamamoto">
+                <h3>GENRYUSAI YAMAMOTO</h3>
+                <p>Captain Commander</p>
+            </div>
+
+            <div class="character-card">
+                <img src="https://i.pinimg.com/736x/08/51/a9/0851a9eb3b04d7351e5b09c494959683.jpg" alt="Rukia Kuchiki">
+                <h3>RUKIA KUCHIKI</h3>
+                <p>13th Division Soul Reaper</p>
+            </div>
+
+            <div class="character-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeR_z5D6ZohVaCEP0WoVElXU_4HY_ZPHZZIGt3oDrcwA&s=10"
+                    alt="Byakuya Kuchiki">
+                <h3>BYAKUYA KUCHIKI</h3>
+                <p>6th Division Captain</p>
+            </div>
+
+            <div class="character-card">
+                <img src="https://i.pinimg.com/1200x/c7/c6/d5/c7c6d51725d30b526765a4d34b232c08.jpg"
+                    alt="Kenpachi Zaraki">
+                <h3>KENPACHI ZARAKI</h3>
+                <p>11th Division Captain</p>
+            </div>
+
+            <div class="character-card">
+                <img src="https://i.pinimg.com/736x/4c/31/55/4c315564dc6927f7f16bd4e74ae3fd0a.jpg"
+                    alt="Toshiro Hitsugaya">
+                <h3>TOSHIRO HITSUGAYA</h3>
+                <p>10th Division Captain</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- BANKAI SECTION -->
+    <section id="bankai" class="content-section">
+
+        <h2>THE POWER OF BANKAI</h2>
+
+        <p>
+            Discover the ultimate release
+            of legendary Zanpakuto.
+        </p>
+
+        <button onclick="activateBankai()">
+            ACTIVATE BANKAI
+        </button>
+
+        <p id="message"></p>
+
+    </section>
+
+    <!-- GOTEI 13 SECTION -->
+    <section id="squads" class="content-section">
+
+        <h2>GOTEI 13</h2>
+
+        <p>
+            Thirteen divisions.
+            One Soul Society.
+        </p>
+        <div class="division-container">
+
+            <div class="division-card">
+                <img src="https://i.pinimg.com/736x/3b/6e/ad/3b6ead33f20093e8e2fc8a316a7a3a57.jpg"
+                    alt="Genryusai Yamamoto">
+
+                <h3>1st Division</h3>
+                <p>Genryusai Yamamoto</p>
+            </div>
+
+            <div class="division-card">
+                <img src="https://i.pinimg.com/736x/ce/27/f3/ce27f30615577190b7f1613dcf936614.jpg" alt="Soi Fon">
+                <h3>2nd Division</h3>
+                <p>Soi Fon</p>
+            </div>
+            <div class="division-card">
+                <img src="https://i.pinimg.com/736x/ed/c5/2f/edc52fcb532543fa9e9b7b8dcf6f4a4d.jpg" alt="Gin Ichimaru">
+
+                <h3>3rd Division</h3>
+                <p>Gin Ichimaru</p>
+            </div>
+
+            <div class="division-card">
+                <img src="https://i.pinimg.com/736x/94/c9/de/94c9de82d4b5131036ef5eda7b0ff310.jpg" alt="Retsu Unohana">
+
+                <h3>4th Division</h3>
+                <p>Retsu Unohana</p>
+            </div>
+            <div class="division-card">
+                <img src="https://i.pinimg.com/1200x/4f/15/d8/4f15d825e5534431c8b2f78b44c3c896.jpg" alt="Shinji Hirako">
+
+                <h3>5th Division</h3>
+                <p>Shinji Hirako</p>
+            </div>
+
+            <div class="division-card">
+                <img src="https://i.pinimg.com/736x/ba/16/1d/ba161d9708d63befd09789049dbd4489.jpg"
+                    alt="Byakuya Kuchiki">
+                <h3>6th Division</h3>
+                <p>Byakuya Kuchiki</p>
+            </div>
+
+            <div class="division-card">
+                <img src="https://i.pinimg.com/736x/33/2c/4c/332c4c3c6ab62eec9184a4fdb5ac8f46.jpg" alt="Sajin Komamura">
+                <h3>7th Division</h3>
+                <p>Sajin Komamura</p>
+            </div>
+
+            <div class="division-card">
+                <img src="https://i.pinimg.com/736x/60/c7/21/60c7218360d0e5a0b38f0f16eb6b5baa.jpg"
+                    alt="Shunsui Kyoraku">
+                <h3>8th Division</h3>
+                <p>Shunsui Kyoraku</p>
+            </div>
+            <div class="division-card">
+                <img src="https://i.pinimg.com/736x/42/f3/ac/42f3accb5e639d3515f7e08c8f5b5841.jpg" alt="Kaname Tosen">
+                <h3>9th Division</h3>
+                <p>Kaname Tosen</p>
+            </div>
+
+            <div class="division-card">
+                <img src="https://i.pinimg.com/736x/c2/a1/83/c2a183868e58db690f83c16b0d1781df.jpg"
+                    alt="Toshiro Hitsugaya">
+                <h3>10th Division</h3>
+                <p>Toshiro Hitsugaya</p>
+            </div>
+            <div class="division-card">
+                <img src="https://i.pinimg.com/736x/da/86/66/da8666cd81c08d792cce4df9497f80fd.jpg"
+                    alt="Kenpachi Zaraki">
+                <h3>11th Division</h3>
+                <p>Kenpachi Zaraki</p>
+            </div>
+
+            <div class="division-card">
+                <img src="https://i.pinimg.com/736x/c9/61/3f/c9613f00f0d6d677d497021d57062b3d.jpg"
+                    alt="Mayuri Kurotsuchi">
+                <h3>12th Division</h3>
+                <p>Mayuri Kurotsuchi</p>
+            </div>
+
+            <div class="division-card">
+                <img src="https://i.pinimg.com/736x/15/5e/ce/155ece15782338329012320b4e42090f.jpg"
+                    alt="Jushiro Ukitake">
+                <h3>13th Division</h3>
+                <p>Jushiro Ukitake</p>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- ZANPAKUTO SECTION -->
+    <section id="zanpakuto" class="content-section">
+
+        <h2>ZANPAKUTO</h2>
+
+        <p>
+        <div class="zanpakuto-container">
+
+            <div class="zanpakuto-card">
+                <img src="https://i.pinimg.com/736x/1b/eb/19/1beb1906da423d81cdb586b06eaefad0.jpg" alt="Zangetsu">
+                <h3>Zangetsu</h3>
+                <p>Ichigo Kurosaki</p>
+            </div>
+
+            <div class="zanpakuto-card">
+                <img src="https://i.pinimg.com/736x/dd/d1/30/ddd130d627e132ea57ec65e5572bef4d.jpg" alt="Senbonzakura">
+                <h3>Senbonzakura</h3>
+                <p>Byakuya Kuchiki</p>
+            </div>
+
+            <div class="zanpakuto-card">
+                <img src="https://i.pinimg.com/736x/e1/6d/95/e16d955f2bcd52d2cbf88a4d928b78ee.jpg"
+                    alt="Sode no Shirayuki">
+                <h3>Sode no Shirayuki</h3>
+                <p>Rukia Kuchiki</p>
+            </div>
+
+            <div class="zanpakuto-card">
+                <img src="https://i.pinimg.com/736x/74/43/44/744344534aa7e70ce5baaf108bf505cc.jpg" alt="Ryujin Jakka">
+                <h3>Ryujin Jakka</h3>
+                <p>Genryusai Yamamoto</p>
+            </div>
+
+            <div class="zanpakuto-card">
+                <img src="https://i.pinimg.com/736x/bf/21/3c/bf213cc3f72ed591723448a796190403.jpg" alt="Hyorinmaru">
+                <h3>Hyorinmaru</h3>
+                <p>Toshiro Hitsugaya</p>
+            </div>
+            <div class="zanpakuto-card">
+                <img src="https://i.pinimg.com/736x/27/a5/24/27a524ba9cad79c6dba5849479245965.jpg" alt="Nozarashi">
+                <h3>Nozarashi</h3>
+                <p>Kenpachi Zaraki</p>
+            </div>
+        </div> Every Soul Reaper has a blade.
+        Every blade has a soul.
+        </p>
+
+    </section>
+    <!-- BANKAI SECTION -->
+<section id="bankai" class="content-section">
+
+    <h2>BANKAI</h2>
+
+    <p>
+        The ultimate release of a Zanpakuto.
+        Witness the power of Bankai.
+    </p>
+<div class="bankai-container">
+
+   <div class="bankai-card">
+    <img src="https://i.pinimg.com/736x/7d/c0/d6/7dc0d6328d6eb333e54ce8af1a1bf3ea.jpg" alt="Tensa Zangetsu">
+    <h3>Tensa Zangetsu</h3>
+    <p>Ichigo Kurosaki</p>
+</div>
+    <div class="bankai-card">
+    <img src="https://i.pinimg.com/736x/7a/88/48/7a884856c576718d7f018d432828fed8.jpg" alt="Senbonzakura Kageyoshi">
+    <h3>Senbonzakura Kageyoshi</h3>
+    <p>Byakuya Kuchiki</p>
+</div>
+
+    <div class="bankai-card">
+    <img src="https://i.pinimg.com/736x/50/63/50/5063506c99e56626a8dbc29c755976be.jpg" alt="Daiguren Hyorinmaru">
+    <h3>Daiguren Hyorinmaru</h3>
+    <p>Toshiro Hitsugaya</p>
+</div>
+
+  <div class="bankai-card">
+    <img src="https://i.pinimg.com/736x/88/07/e1/8807e1aa2b3ecf7b9175ab777152ff10.jpg" alt="Zanka no Tachi">
+    <h3>Zanka no Tachi</h3>
+    <p>Genryusai Yamamoto</p>
+</div>
+
+
+  <div class="bankai-card">
+    <img src="https://i.pinimg.com/736x/c0/5b/fd/c05bfd2ccc15d1410372e7513317fbbf.jpg" alt="Kannonbiraki Benihime Aratame">
+    <h3>Kannonbiraki Benihime Aratame</h3>
+    <p>Kisuke Urahara</p>
+</div>
+
+   <div class="bankai-card">
+    <img src="https://i.pinimg.com/736x/a6/2a/1c/a62a1c473c8fc550c092aa2584a7b804.jpg" alt="Katen Kyokotsu Karamatsu Shinju">
+    <h3>Katen Kyokotsu: Karamatsu Shinju</h3>
+    <p>Shunsui Kyoraku</p>
+</div>
+</div>
+</section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>BLEACH FAN WEBSITE | CREATED BY ADITYA AND KEDAR
+
+        </p>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        function activateBankai() {
+
+            document.body.classList.toggle("bankai-active");
+
+            const message = document.getElementById("message");
+
+            if (document.body.classList.contains("bankai-active")) {
+                message.innerText = "BANKAI... ZANKA NO TACHI!";
+            } else {
+                message.innerText = "BANKAI DEACTIVATED";
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
